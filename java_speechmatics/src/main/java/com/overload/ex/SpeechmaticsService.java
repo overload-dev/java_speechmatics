@@ -29,8 +29,8 @@ import org.springframework.web.multipart.MultipartFile;
 
 @Service
 public class SpeechmaticsService {
-	private static String USER_ID = "72944";
-	private static String TOKEN = "ZGMxZDcxZmItMTk1MS00NzczLTg3ZTktNTY2ZTk3NmY0MWIy";
+	private static String USER_ID = "Your Id";
+	private static String TOKEN = "Your Token";
 	private static String UPLOADURI = "https://api.speechmatics.com/v1.0/user/%s/jobs/";
 	private static String GETTRANSCRIPTURL = "https://api.speechmatics.com/v1.0/user/%s/jobs/%s/transcript?auth_token=%s";
 	private static String GETJOBIDURL = "https://api.speechmatics.com/v1.0/user/%s/jobs/?auth_token=%s";
